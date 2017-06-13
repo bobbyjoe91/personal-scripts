@@ -1,5 +1,5 @@
 # Bobby Jonathan
-Mahasiswa Ilmu KOmputer IPB
+Mahasiswa Ilmu Komputer IPB
 
 *Bukit Pamulang Indah, Tangerang Selatan*\
 *+62 878-8789-2939*\
@@ -17,5 +17,14 @@ Juli 2013 -- Mei 2016
 
 ## Pelatihan
 
-- Windows Phone
+- Windows Phone Developer
+- PCMS
+
+## Keahlian
+
 - 
+- 
+
+## Hobi
+
+
