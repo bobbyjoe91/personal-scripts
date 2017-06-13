@@ -7,13 +7,13 @@ Mahasiswa Ilmu Komputer IPB
 
 ## Pendidikan
 
-### Institut Pertanian Bogor--- Program S1
+### Institut Pertanian Bogor --- Program S1
 
-September 2016-- Sekarang
+September 2016 -- Sekarang
 
 ### SMA Mater Dei
 
-Juli 2013-- Mei 2016
+Juli 2013 -- Mei 2016
 
 ## Pelatihan
 
