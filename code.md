@@ -1,8 +1,13 @@
+# Tugas Aloritma
+### Rekursif
 ## Fungsi Ackermann
+```C
+
+```
 
 ## Barisan Tribonacci
 ```C
-   #include <stdio.h>
+#include <stdio.h>
 
 int Tribonacci(int n){
     if(n == 1||n == 2||n == 3){
