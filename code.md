@@ -1,7 +1,7 @@
 ## Fungsi Ackermann
 
 ## Barisan Tribonacci
-'''C
+```C
    #include <stdio.h>
 
 int Tribonacci(int n){
@@ -21,6 +21,6 @@ int main()
     printf("%d",Tribonacci(n));
     return 0;
 }
-'''
+```
 
 
