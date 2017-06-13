@@ -1,7 +1,31 @@
-# Tugas Aloritma
+# Tugas Algoritme
 ### Rekursif
 ## Fungsi Ackermann
 ```C
+#include <stdio.h>
+
+int Ackermann(int m, int n){
+    if(m == 0){
+        return n+1;
+    }
+    else{
+        if(m > 0 && n == 0){
+           return Ackermann(m-1,1);
+        }
+        else{
+            n=Ackermann(m,n-1);
+            return Ackermann(m-1,n);
+        }
+    }
+}
+
+int main()
+{
+    int m, n;
+    scanf("%d %d",&m, &n);
+    printf("%d",Ackermann(m,n));
+    return 0;
+}
 
 ```
 
