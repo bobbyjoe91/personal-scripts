@@ -1,0 +1,18 @@
+Manipulation
+Generalizations
+
+Congratulations! You learned how to use the command line to view and manipulate the filesystem. 
+What can we generalize so far?
+
+    Options modify the behavior of commands:
+        ls -a lists all contents of a directory, including hidden files and directories
+        ls -l lists all contents in long format
+        ls -t orders files and directories by the time they were last modified
+        Multiple options can be used together, like ls -alt
+    From the command line, you can also copy, move, and remove files and directories:
+        cp [file_path(1 or more)] [destination_path] copies files
+        mv [file_path(1 or more)] [destination_path] moves and renames files
+        rm [file_path] removes files
+        rm -r [file_path] removes directories (and its contents)
+    Wildcards (*) are useful for selecting groups of files and directories
+
