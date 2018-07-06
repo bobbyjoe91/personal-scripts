@@ -1,2 +1,0 @@
-# Latihan Perang Penkom
-
