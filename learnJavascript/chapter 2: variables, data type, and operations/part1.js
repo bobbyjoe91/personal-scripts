@@ -1,6 +1,6 @@
 //variables and data types
 
-//declaration
+//  declaration
 /*
     Here are things to remember about variable name:
     1. Only letters, $, and _ that can begin a var names
@@ -18,7 +18,7 @@ document.write("phi: " + x + "<br>integer: " + integer); //kinda formatted input
 document.getElementById("write").innerHTML = phi;
 document.write(_new + "<br>");
 
-//variable redeclaration
+//  variable redeclaration
 var i = 0;
 document.write("Value of i is: " + i + "<br>");
 i = 10; //reseting 0 to 10
