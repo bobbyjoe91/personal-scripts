@@ -1,7 +1,6 @@
 Redirection
 Generalizations
 
-Congratulations! You learned how to use the command line to redirect standard input and standard output. What can we generalize so far?
 
     Redirection reroutes standard input, standard output, and standard error.
 
