@@ -1,0 +1,124 @@
+/* 
+    selector
+    '.' -> class
+    '#' -> id
+
+    class is commonly used for multiple tags. id is used for single tag.
+*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body{
+    background-color: #b4eeb4;
+    background-image: url(bg-image.jpg);
+    background-attachment: fixed;
+
+    /*will repeat if the image is small, but I've set it so it won't repeat*/
+    background-repeat: no-repeat;
+
+    background-position: top;
+
+    /*
+    you can also type
+    background: #b4ee4 url(bg-image.jpg) no-repeat fixed left bottom;
+    */
+}
+
+h2{
+    font-family: 'Ubuntu';
+    color: white;
+}
+
+#x{
+    text-transform: uppercase;
+    text-indent: 0px;
+    letter-spacing: 5px; /* distance between letters */
+    line-height: 70px;/* distance between rows */
+    font-family: 'Righteous';
+}
+
+.text{
+    font-family: 'Ubuntu';
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#left{
+    float: left;
+    width: 44%;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+#right{
+    float: right;
+    width: 44%;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+#list{
+    clear: both;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+
+ul li{
+    font-family: 'Ubuntu';
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img{
+    /* learn more about display here: https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.nav{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+/* link before click */
+.nav:link{
+    color: white;
+    background: black;
+    text-decoration: none; /* no underline */
+}
+
+/* link after click */
+.nav:visited{
+    color: white;
+    background: black;
+    text-decoration: none;
+}
+
+/* mouse pointer hovering */
+.nav:hover{
+    color: lightgreen;
+    background: black;
+    text-decoration: none;
+}
+
+/* is being clicked */
+.nav:active{
+    color: lightsalmon;
+    background: black;
+    text-decoration: none;
+}
+
+#menu{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
