@@ -1,5 +1,5 @@
 import os
-cmd = "soundconverter -b -m \"audio/mpeg\" -s \".mp3\" *.mp4"
+cmd = "soundconverter -b -m \"audio/mpeg\" -s \".mp3\" *"
 cmd2 = "pwd"
 print("You're currently in: ")
 os.system(cmd2)
